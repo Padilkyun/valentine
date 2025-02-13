@@ -6,9 +6,7 @@ function shrinkYes() {
   // Setiap kali tombol "No" ditekan, ukurannya akan semakin besar
   scale += 0.5; // Tambahkan 0.1 pada ukuran tombol
   yesButton.style.transform = `scale(${scale})`; // Ubah ukuran tombol "Yes"
-    if (noButton) {
-    noButton.style.display = "none";  // Menyembunyikan tombol No
-  }
+
 }
 
 function changeContent() {
