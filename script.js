@@ -2,7 +2,7 @@ let scale = 1;  // Variabel untuk melacak ukuran tombol
 
 function shrinkYes() {
   var yesButton = document.getElementById('yesButton');
-  
+  var noButton = document.getElementById('noButton');
   // Setiap kali tombol "No" ditekan, ukurannya akan semakin besar
   scale += 0.5; // Tambahkan 0.1 pada ukuran tombol
   yesButton.style.transform = `scale(${scale})`; // Ubah ukuran tombol "Yes"
@@ -21,5 +21,6 @@ function changeContent() {
 
 if (yesButton) {
     yesButton.style.display = "none";  // Menyembunyikan tombol Yes
+    noButton.style.display = "none";
   }
 }
