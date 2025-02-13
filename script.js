@@ -11,10 +11,14 @@ function shrinkYes() {
 function changeContent() {
   var questionText = document.getElementById('questionText');
   var gifImage = document.getElementById('gifImage');
+  var yesButton = document.getElementById('yesButton');  // Ambil tombol "Yes"
 
   // Ganti teks pertanyaan
-  questionText.textContent = "LOPPPPP UUUU SAYANGGGGGGG Happy Valentine 💖";
+  questionText.textContent = "LOPPPPP UUUUU SAYANGKU, Happy Valentine By! 💖";
 
   // Ganti gambar (ganti dengan URL gambar lain yang sesuai)
   gifImage.src = "cat1.gif";
+
+  // Sembunyikan tombol Yes setelah ditekan
+  yesButton.style.display = "none";
 }
