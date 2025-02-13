@@ -12,6 +12,7 @@ function changeContent() {
   var questionText = document.getElementById('questionText');
   var gifImage = document.getElementById('gifImage');
   var yesButton = document.getElementById('yesButton');  // Ambil tombol "Yes"
+  var noButton = document.getElementById('noButton');
 
   // Ganti teks pertanyaan
   questionText.textContent = "LOPPPPP UUUUU SAYANGKU, Happy Valentine By! 💖";
@@ -21,6 +22,9 @@ function changeContent() {
 
 if (yesButton) {
     yesButton.style.display = "none";  // Menyembunyikan tombol Yes
+    noButton.style.display = "none";
+  }
+  if (noButton) {  // Menyembunyikan tombol Yes
     noButton.style.display = "none";
   }
 }
