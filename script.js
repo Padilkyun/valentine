@@ -19,6 +19,7 @@ function changeContent() {
   // Ganti gambar (ganti dengan URL gambar lain yang sesuai)
   gifImage.src = "cat1.gif";
 
-  // Sembunyikan tombol Yes setelah ditekan
-  yesButton.style.display = "none";
+if (yesButton) {
+    yesButton.style.display = "none";  // Menyembunyikan tombol Yes
+  }
 }
